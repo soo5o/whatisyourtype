@@ -1,0 +1,42 @@
+* {
+	margin: 0px;
+}
+body{
+    margin-left: 450px;
+    background-color: rgb(204, 237, 243);
+}
+.head{
+    font-family:'Tiro Tamil', serif;
+    border-bottom:2px solid gray;
+    width: 860px;
+    padding: 23px 0 0 200px;
+}
+.header{
+    font-size: 90px;
+    color: rgb(0, 97, 116);
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+#grid ul{
+    padding-left:53px;
+}
+ul{
+    border-right:2px solid gray;
+    width: 100px;
+    padding: 20px;
+    font-size: 25px;
+    font-family: 'Tiro Tamil', 'Franklin Gothic',serif;
+    font-weight: 1000;
+}
+li{
+    margin-bottom: 15px;
+}
+#center{
+    padding-left:25px;
+}
